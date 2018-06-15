@@ -1,0 +1,13 @@
+html
+  head
+  body
+    p #{message}
+    form(action=action,method='POST')
+      div
+        label(for='name') Name
+        input#name(type='text',name='name',required)
+      div
+        label(for='name') Mail
+        input#mail(type='email',name='mail',required)
+      div
+        input(type='submit')
